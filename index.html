@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Palm Farm Flow แอปบันทึกสวนปาล์มน้ำมัน รายรับรายจ่าย ขายปาล์ม ใส่ปุ๋ย</title>
+<meta name="description" content="Palm Farm Flow แอปสวนปาล์มน้ำมันสำหรับชาวสวนไทย บันทึกแปลง งานสวน รอบใส่ปุ๋ย รายรับรายจ่าย และยอดขายปาล์ม ใช้ได้แม้ไม่มีอินเทอร์เน็ต ดาวน์โหลดฟรีบน Google Play">
+<link rel="canonical" href="https://alusi-ae.github.io/palm-farm-flow/">
+<meta name="theme-color" content="#1E5631">
+<!-- วางโค้ดยืนยัน Google Search Console ตรงนี้ เมื่อได้รับจาก Google:
+<meta name="google-site-verification" content="..."> -->
+
+<!-- แสดงผลตอนแชร์ลิงก์ใน Facebook, LINE -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="th_TH">
+<meta property="og:site_name" content="Palm Farm Flow">
+<meta property="og:title" content="Palm Farm Flow แอปบันทึกสวนปาล์มน้ำมัน">
+<meta property="og:description" content="จดแปลง งานสวน รอบใส่ปุ๋ย รายรับรายจ่าย และยอดขายปาล์มไว้ในมือถือเครื่องเดียว ใช้ได้แม้ไม่มีเน็ต ดาวน์โหลดฟรี">
+<meta property="og:url" content="https://alusi-ae.github.io/palm-farm-flow/">
+<meta property="og:image" content="https://play-lh.googleusercontent.com/4ow3f9bNGUUNooWYtcQNwtl4xCt8R043-tDfPsxBV_2DNMUX7tQxCNWOU-AzNXlNv2r4Xt55R_NO3gzRVkkyPw=s512">
+<meta name="twitter:card" content="summary">
+
+<link rel="icon" href="https://play-lh.googleusercontent.com/4ow3f9bNGUUNooWYtcQNwtl4xCt8R043-tDfPsxBV_2DNMUX7tQxCNWOU-AzNXlNv2r4Xt55R_NO3gzRVkkyPw=s64">
+<link rel="apple-touch-icon" href="https://play-lh.googleusercontent.com/4ow3f9bNGUUNooWYtcQNwtl4xCt8R043-tDfPsxBV_2DNMUX7tQxCNWOU-AzNXlNv2r4Xt55R_NO3gzRVkkyPw=s180">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mitr:wght@400;500;600&family=Noto+Sans+Thai+Looped:wght@400;500;600&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Palm Farm Flow",
+  "alternateName": ["แอปสวนปาล์ม Palm Farm Flow", "ปาล์มฟาร์มโฟลว์"],
+  "description": "แอปบันทึกสวนปาล์มน้ำมันสำหรับชาวสวนไทย บันทึกแปลง งานดูแลสวน การใส่ปุ๋ย รายรับรายจ่าย และยอดขายปาล์ม ใช้งานได้โดยไม่ต้องต่ออินเทอร์เน็ต",
+  "url": "https://alusi-ae.github.io/palm-farm-flow/",
+  "installUrl": "https://play.google.com/store/apps/details?id=com.palmfarmflow.app",
+  "image": "https://play-lh.googleusercontent.com/4ow3f9bNGUUNooWYtcQNwtl4xCt8R043-tDfPsxBV_2DNMUX7tQxCNWOU-AzNXlNv2r4Xt55R_NO3gzRVkkyPw=s512",
+  "operatingSystem": "Android",
+  "applicationCategory": "BusinessApplication",
+  "inLanguage": "th",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "THB" },
+  "featureList": [
+    "บันทึกข้อมูลแปลงปาล์ม พื้นที่ จำนวนต้น พันธุ์ วันที่ปลูก",
+    "แผนดูแลสวนและรอบใส่ปุ๋ย สร้างงานอัตโนมัติ",
+    "บันทึกรายรับรายจ่ายสวนปาล์ม",
+    "บันทึกการขายปาล์ม น้ำหนัก คูณ ราคา",
+    "ใช้งานแบบออฟไลน์",
+    "สำรองและกู้คืนข้อมูล"
+  ],
+  "author": { "@type": "Organization", "name": "Palm Farm Flow", "email": "palmfarmflow@gmail.com" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "Palm Farm Flow คืออะไร",
+      "acceptedAnswer": { "@type": "Answer", "text": "Palm Farm Flow คือแอปบันทึกสวนปาล์มน้ำมันบนมือถือ Android สำหรับชาวสวนปาล์มไทย ใช้จดข้อมูลแปลง งานดูแลสวน การใส่ปุ๋ย รายรับรายจ่าย และยอดขายปาล์ม" } },
+    { "@type": "Question", "name": "Palm Farm Flow ใช้ฟรีไหม",
+      "acceptedAnswer": { "@type": "Answer", "text": "ดาวน์โหลดและใช้งานได้ฟรี รุ่นฟรีรองรับ 2 แปลง และไม่มีโฆษณา ส่วนรุ่น Pro ทดลองใช้ฟรีได้ 6 เดือนโดยไม่ต้องจ่ายเงินล่วงหน้า" } },
+    { "@type": "Question", "name": "ในสวนไม่มีสัญญาณเน็ต ใช้ได้ไหม",
+      "acceptedAnswer": { "@type": "Answer", "text": "ใช้ได้ แอปออกแบบให้ทำงานได้โดยไม่ต้องต่ออินเทอร์เน็ต" } },
+    { "@type": "Question", "name": "รุ่นฟรีกับรุ่น Pro ต่างกันอย่างไร",
+      "acceptedAnswer": { "@type": "Answer", "text": "รุ่นฟรีบันทึกได้ 2 แปลง พร้อมงานสวน รายรับรายจ่าย และการขายปาล์ม รุ่น Pro เพิ่มแปลงได้ไม่จำกัด มีกราฟเปรียบเทียบรายรับรายจ่ายแยกแปลงและเทียบปีต่อปี ส่งออกรายงานเป็น Excel เลือกธีมสีและขนาดตัวอักษร และสมุดขายปาล์มแบบอ่านง่าย" } },
+    { "@type": "Question", "name": "ทดลอง Pro ครบ 6 เดือนแล้วจะเป็นอย่างไร",
+      "acceptedAnswer": { "@type": "Answer", "text": "แอปจะกลับเป็นรุ่นฟรีตามปกติ ไม่มีการเก็บเงินล่วงหน้า" } },
+    { "@type": "Question", "name": "เปลี่ยนมือถือแล้วข้อมูลจะหายไหม",
+      "acceptedAnswer": { "@type": "Answer", "text": "แอปมีเมนูสำรองข้อมูลเป็นไฟล์ และกู้คืนกลับมาได้เอง ควรสำรองข้อมูลไว้เป็นประจำ" } },
+    { "@type": "Question", "name": "ใช้กับ iPhone ได้ไหม",
+      "acceptedAnswer": { "@type": "Answer", "text": "ขณะนี้เปิดให้ดาวน์โหลดบน Google Play สำหรับมือถือ Android" } }
+  ]
+}
+</script>
+
+<style>
+  :root {
+    --frond: #1E5631;      /* เขียวทางปาล์มแก่ */
+    --frond-deep: #143D22;
+    --leaf: #4C9A3F;       /* เขียวใบอ่อน */
+    --oil: #F2B233;        /* เหลืองน้ำมันปาล์ม */
+    --paper: #F4F8EF;
+    --card: #FFFFFF;
+    --ink: #14261A;
+    --ink-soft: #4A5C50;
+    --line: #D5E0CF;
+    --display: "Mitr", "Noto Sans Thai Looped", system-ui, sans-serif;
+    --body: "Noto Sans Thai Looped", "Sarabun", system-ui, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--body);
+    font-size: 18px;
+    line-height: 1.75;
+    -webkit-text-size-adjust: 100%;
+  }
+  img { max-width: 100%; display: block; }
+  a { color: var(--frond); }
+  a:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visible {
+    outline: 3px solid var(--oil);
+    outline-offset: 3px;
+  }
+  h1, h2, h3 { font-family: var(--display); font-weight: 500; line-height: 1.3; margin: 0; }
+  h2 { font-size: clamp(1.6rem, 4.5vw, 2.25rem); }
+  h3 { font-size: 1.25rem; }
+  p { margin: 0; }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 20px; }
+
+  /* แถบบน */
+  .top { background: var(--frond-deep); color: #fff; }
+  .top .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-top: 12px; padding-bottom: 12px; }
+  .brand { display: flex; align-items: center; gap: 10px; color: #fff; text-decoration: none; font-family: var(--display); font-size: 1.15rem; }
+  .brand img { width: 40px; height: 40px; border-radius: 10px; }
+  .top nav { display: flex; gap: 22px; font-size: 1rem; }
+  .top nav a { color: #DCEBD6; text-decoration: none; }
+  .top nav a:hover { color: #fff; text-decoration: underline; }
+  @media (max-width: 640px) { .top nav { display: none; } }
+
+  /* ส่วนเปิด */
+  .hero { background: var(--frond); color: #fff; padding: 56px 0 72px; }
+  .hero .wrap { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 56px; align-items: center; }
+  .hero h1 { font-size: clamp(2rem, 6vw, 3.25rem); font-weight: 600; letter-spacing: -0.005em; }
+  .hero .lede { margin-top: 20px; font-size: 1.15rem; color: #E3F0DD; max-width: 34em; }
+  .cta {
+    display: inline-block; margin-top: 30px;
+    background: var(--oil); color: #2B1D00;
+    font-family: var(--display); font-weight: 500; font-size: 1.2rem;
+    padding: 16px 28px; border-radius: 14px; text-decoration: none;
+    box-shadow: 0 4px 0 #B67F12;
+  }
+  .cta:hover { background: #F7C24F; }
+  .cta:active { transform: translateY(2px); box-shadow: 0 2px 0 #B67F12; }
+  .hero .small { margin-top: 16px; font-size: 0.95rem; color: #C9DEC1; }
+  @media (max-width: 860px) {
+    .hero { padding: 40px 0 56px; }
+    .hero .wrap { grid-template-columns: 1fr; gap: 40px; }
+  }
+
+  /* ใบชั่งปาล์ม */
+  .slip {
+    background: #FFFDF5; color: var(--ink);
+    padding: 26px 24px 24px;
+    border-radius: 6px;
+    box-shadow: 0 18px 40px rgba(8, 30, 15, 0.35);
+    position: relative;
+    max-width: 400px; width: 100%; justify-self: end;
+  }
+  .slip::after {
+    content: ""; position: absolute; left: 0; right: 0; bottom: -10px; height: 10px;
+    background: radial-gradient(circle at 10px 0, #FFFDF5 9px, transparent 10px) repeat-x;
+    background-size: 20px 10px;
+  }
+  .slip h2 { font-size: 1.3rem; color: var(--frond); }
+  .slip .hint { font-size: 0.95rem; color: var(--ink-soft); margin-top: 2px; }
+  .slip .row { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 14px 0; border-bottom: 1px dashed #C9C4A8; }
+  .slip label { font-size: 1.05rem; }
+  .slip .field { display: flex; align-items: baseline; gap: 8px; }
+  .slip input {
+    width: 7.5ch; font: inherit; font-family: var(--display); font-size: 1.35rem; text-align: right;
+    padding: 4px 8px; border: 2px solid var(--line); border-radius: 8px; background: #fff; color: var(--ink);
+  }
+  .slip .unit { font-size: 0.95rem; color: var(--ink-soft); min-width: 4.5em; }
+  .slip .total { border-bottom: 0; padding-top: 18px; align-items: baseline; }
+  .slip .total strong { font-family: var(--display); font-weight: 600; font-size: 2rem; color: var(--frond); font-variant-numeric: tabular-nums; }
+  .slip .note { margin-top: 6px; font-size: 0.95rem; color: var(--ink-soft); }
+  @media (max-width: 860px) { .slip { justify-self: start; } }
+
+  /* ส่วนเนื้อหา */
+  section { padding: 72px 0; }
+  .intro { max-width: 40em; margin-top: 12px; color: var(--ink-soft); }
+  .tint { background: #E7F0DF; }
+
+  .does { display: grid; grid-template-columns: repeat(2, 1fr); gap: 44px 56px; margin-top: 44px; }
+  .does h3 { color: var(--frond); padding-left: 14px; border-left: 5px solid var(--oil); }
+  .does ul { margin: 14px 0 0; padding-left: 1.2em; }
+  .does li { margin-top: 6px; }
+  @media (max-width: 720px) { .does { grid-template-columns: 1fr; gap: 36px; } }
+
+  .shots { display: flex; gap: 16px; overflow-x: auto; padding: 8px 20px 20px; margin: 36px -20px 0; scroll-snap-type: x proximity; }
+  .shots img { height: 460px; width: auto; max-width: none; border-radius: 16px; border: 1px solid var(--line); background: #fff; scroll-snap-align: start; }
+  @media (max-width: 640px) { .shots img { height: 380px; } }
+
+  .tablewrap { overflow-x: auto; margin-top: 36px; }
+  table { width: 100%; border-collapse: collapse; background: var(--card); border-radius: 14px; overflow: hidden; }
+  @media (max-width: 560px) { th, td { padding: 12px 10px; font-size: 0.95rem; } }
+  th, td { padding: 14px 18px; text-align: left; border-bottom: 1px solid var(--line); vertical-align: top; }
+  thead th { font-family: var(--display); font-weight: 500; background: var(--frond); color: #fff; }
+  thead th:last-child { background: var(--frond-deep); }
+  tbody th { font-weight: 500; }
+  tbody tr:last-child th, tbody tr:last-child td { border-bottom: 0; }
+  .yes { color: var(--frond); font-weight: 600; }
+  .no { color: #8A968C; }
+  .after { margin-top: 18px; color: var(--ink-soft); max-width: 40em; }
+
+  .who { margin: 28px 0 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px 40px; max-width: 820px; }
+  .who li { padding-left: 34px; position: relative; }
+  .who li::before { content: ""; position: absolute; left: 0; top: 0.55em; width: 18px; height: 18px; border-radius: 50% 50% 50% 0; background: var(--leaf); transform: rotate(-45deg); }
+  @media (max-width: 640px) { .who { grid-template-columns: 1fr; } }
+
+  .faq { margin-top: 32px; max-width: 760px; }
+  details { border-bottom: 1px solid var(--line); }
+  summary { cursor: pointer; padding: 18px 36px 18px 0; font-family: var(--display); font-size: 1.15rem; list-style: none; position: relative; }
+  summary::-webkit-details-marker { display: none; }
+  summary::after { content: "+"; position: absolute; right: 6px; top: 12px; font-size: 1.6rem; color: var(--frond); }
+  details[open] summary::after { content: "–"; }
+  details p { padding: 0 0 20px; color: var(--ink-soft); }
+
+  .contact { background: var(--frond); color: #fff; }
+  .contact .wrap { display: grid; grid-template-columns: 1fr auto; gap: 32px; align-items: center; }
+  .contact p { color: #E3F0DD; margin-top: 10px; }
+  .contact a:not(.cta) { color: #fff; }
+  .contact .cta { margin-top: 0; }
+  @media (max-width: 720px) { .contact .wrap { grid-template-columns: 1fr; } }
+
+  footer { background: var(--frond-deep); color: #C9DEC1; font-size: 0.95rem; padding: 28px 0; }
+  footer .wrap { display: flex; flex-wrap: wrap; gap: 10px 28px; justify-content: space-between; }
+  footer a { color: #fff; }
+  .en { margin-top: 14px; max-width: 46em; color: var(--ink-soft); font-family: system-ui, sans-serif; font-size: 1rem; line-height: 1.6; }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#top">
+      <img src="https://play-lh.googleusercontent.com/4ow3f9bNGUUNooWYtcQNwtl4xCt8R043-tDfPsxBV_2DNMUX7tQxCNWOU-AzNXlNv2r4Xt55R_NO3gzRVkkyPw=s96" alt="โลโก้แอป Palm Farm Flow" width="40" height="40">
+      Palm Farm Flow
+    </a>
+    <nav aria-label="เมนูหลัก">
+      <a href="#features">ทำอะไรได้</a>
+      <a href="#pro">ฟรีกับ Pro</a>
+      <a href="#faq">คำถามที่พบบ่อย</a>
+      <a href="#contact">ติดต่อ</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <h1>แอปบันทึกสวนปาล์มน้ำมัน งาน เงิน ผลผลิต ครบในมือถือเครื่องเดียว</h1>
+        <p class="lede">Palm Farm Flow ช่วยชาวสวนปาล์มจดข้อมูลแปลง วางรอบดูแลสวนและใส่ปุ๋ย บันทึกรายรับรายจ่ายและยอดขายปาล์ม ใช้ได้แม้อยู่ในสวนที่ไม่มีสัญญาณเน็ต</p>
+        <a class="cta" href="https://play.google.com/store/apps/details?id=com.palmfarmflow.app&hl=th">ดาวน์โหลดฟรีบน Google Play</a>
+        <p class="small">สำหรับมือถือ Android ไม่มีโฆษณา</p>
+      </div>
+
+      <form class="slip" onsubmit="return false" aria-label="ตัวอย่างการคิดยอดขายปาล์ม">
+        <h2>ลองคิดยอดขายปาล์ม</h2>
+        <p class="hint">ใส่ตัวเลขจากใบชั่งของคุณ</p>
+        <div class="row">
+          <label for="kg">น้ำหนัก</label>
+          <span class="field"><input id="kg" type="number" inputmode="decimal" min="0" step="1" value="1250"><span class="unit">กก.</span></span>
+        </div>
+        <div class="row">
+          <label for="price">ราคา</label>
+          <span class="field"><input id="price" type="number" inputmode="decimal" min="0" step="0.01" value="5.40"><span class="unit">บาท/กก.</span></span>
+        </div>
+        <div class="row total">
+          <span>ยอดเงิน</span>
+          <strong><output id="total" for="kg price">6,750</output> บาท</strong>
+        </div>
+        <p class="note">ในแอป บันทึกการขายแบบนี้ได้ทุกครั้ง แล้วดูย้อนหลังได้ทั้งปี</p>
+      </form>
+    </div>
+  </section>
+
+  <section id="features">
+    <div class="wrap">
+      <h2>Palm Farm Flow ทำอะไรได้บ้าง</h2>
+      <p class="intro">ทุกอย่างที่เคยจดลงสมุดสวนปาล์ม ย้ายมาอยู่ในแอปเดียว เปิดดูเมื่อไรก็เจอ</p>
+
+      <div class="does">
+        <div>
+          <h3>บันทึกแปลงปาล์ม</h3>
+          <ul>
+            <li>พื้นที่เป็นไร่ งาน ตารางวา จำนวนต้น พันธุ์ปาล์ม และวันที่ปลูก</li>
+            <li>รูปถ่ายแปลงพร้อมชื่อ เห็นภาพจริงของทุกแปลง</li>
+          </ul>
+        </div>
+        <div>
+          <h3>งานดูแลสวนและใส่ปุ๋ย</h3>
+          <ul>
+            <li>ตั้งรอบงานในแผนดูแลสวน แล้วแอปสร้างงานให้อัตโนมัติ</li>
+            <li>เพิ่มงานเอง เลื่อนกำหนด กดทำเสร็จ</li>
+            <li>บันทึกปุ๋ยที่ใช้พร้อมรูปประกอบ</li>
+            <li>แจ้งเตือนเมื่อถึงกำหนด</li>
+          </ul>
+        </div>
+        <div>
+          <h3>รายรับรายจ่ายสวนปาล์ม</h3>
+          <ul>
+            <li>สรุปรายรับรายจ่ายรายเดือน</li>
+            <li>บันทึกการขายปาล์ม น้ำหนักคูณราคาเป็นยอดเงิน</li>
+            <li>บัญชีขายปาล์มรายปี ดูย้อนหลังได้</li>
+            <li>แยกหมวดรายจ่าย เช่น ค่าปุ๋ย ค่ายา ค่าแรง</li>
+          </ul>
+        </div>
+        <div>
+          <h3>ข้อมูลอยู่กับคุณ</h3>
+          <ul>
+            <li>ใช้งานได้โดยไม่ต้องต่ออินเทอร์เน็ต</li>
+            <li>สำรองและกู้คืนข้อมูลเองได้เป็นไฟล์</li>
+            <li>ไม่มีโฆษณา</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="tint" id="screens">
+    <div class="wrap">
+      <h2>หน้าตาแอป</h2>
+      <div class="shots" tabindex="0" role="region" aria-label="ภาพหน้าจอแอป เลื่อนไปทางขวาเพื่อดูเพิ่ม">
+        <img loading="lazy" alt="ภาพหน้าจอแอป Palm Farm Flow ภาพที่ 1" src="https://play-lh.googleusercontent.com/VvaAsQPPVebIrIkD-kI7yTxleh-49o-oI13NFYTbVsJe1BdUvecz3n2vSy6YHDy_G7Q_POamA5bFPh-pGQYsj9o=w720-h1280">
+        <img loading="lazy" alt="ภาพหน้าจอแอป Palm Farm Flow ภาพที่ 2" src="https://play-lh.googleusercontent.com/coxHVtRsGFr3MjMX_9gP3Vsclu1W7a0jCsq3d_LkxRmV2kG-U-OWQXobQY8qxfi7bEgTNPwMs5WjL_vHTwVhj_M=w720-h1280">
+        <img loading="lazy" alt="ภาพหน้าจอแอป Palm Farm Flow ภาพที่ 3" src="https://play-lh.googleusercontent.com/ZjPaB6AiI0WhHcugp6jTkgx1zjn0VI1O3LNnbAgN_hJ4sQwA_qS5lLzqVDkVJAiCrUPnX9IcGrgWJaZMviHw9Q=w720-h1280">
+        <img loading="lazy" alt="ภาพหน้าจอแอป Palm Farm Flow ภาพที่ 4" src="https://play-lh.googleusercontent.com/EY30Dda3hM6hYtYI-Xr1uAZtVZ58AvBSbvYtsXIoYHMisrRVAMf3AqNUS8VBYt3pfv0Zo0T3G6Uo_0V0st7NV3g=w720-h1280">
+        <img loading="lazy" alt="ภาพหน้าจอแอป Palm Farm Flow ภาพที่ 5" src="https://play-lh.googleusercontent.com/RJZ67Y4d6jBzK-6lPYX4udRHjWIBa6tElmvx9ye1weHQsIj_7hR9d_Ohnuz4t9Qvb7PEiM8vyLblY-K7Jj5lSA=w720-h1280">
+        <img loading="lazy" alt="ภาพหน้าจอแอป Palm Farm Flow ภาพที่ 6" src="https://play-lh.googleusercontent.com/R1BzFyge2Y6zXSTCYuNdTqy0tub0BlgcwWqqOyZl7fifBh0niJZzWqyhxwm7hkqRJxjkHPJfCGPfzn_eyH8aFg=w720-h1280">
+        <img loading="lazy" alt="ภาพหน้าจอแอป Palm Farm Flow ภาพที่ 7" src="https://play-lh.googleusercontent.com/r_j1USc0Py7066zNSH08e6EoH1BATiGQ-jbrBwuRrfH_SIgCfXLFZQ0zRvqxvYeX_h7TYoivHsQFkcV3Kwlyww=w720-h1280">
+      </div>
+    </div>
+  </section>
+
+  <section id="pro">
+    <div class="wrap">
+      <h2>รุ่นฟรีกับรุ่น Pro</h2>
+      <p class="intro">รุ่นฟรีใช้จดสวนได้ครบ รุ่น Pro เหมาะกับคนที่มีหลายแปลงหรืออยากได้รายงาน ทดลองใช้ Pro ฟรีได้ 6 เดือน ไม่ต้องจ่ายเงินล่วงหน้า</p>
+      <div class="tablewrap">
+        <table>
+          <thead>
+            <tr><th scope="col">ความสามารถ</th><th scope="col">ฟรี</th><th scope="col">Pro</th></tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">จำนวนแปลง</th><td>2 แปลง</td><td class="yes">ไม่จำกัด</td></tr>
+            <tr><th scope="row">แผนดูแลสวน งาน และแจ้งเตือน</th><td class="yes">มี</td><td class="yes">มี</td></tr>
+            <tr><th scope="row">รายรับรายจ่ายและการขายปาล์ม</th><td class="yes">มี</td><td class="yes">มี</td></tr>
+            <tr><th scope="row">สำรองและกู้คืนข้อมูล</th><td class="yes">มี</td><td class="yes">มี</td></tr>
+            <tr><th scope="row">กราฟเปรียบเทียบแยกแปลงและปีต่อปี</th><td class="no">ไม่มี</td><td class="yes">มี</td></tr>
+            <tr><th scope="row">ส่งออกรายงาน Excel ใช้ขอสินเชื่อหรือทำบัญชี</th><td class="no">ไม่มี</td><td class="yes">มี</td></tr>
+            <tr><th scope="row">เลือกธีมสีและขนาดตัวอักษร</th><td class="no">ไม่มี</td><td class="yes">มี</td></tr>
+            <tr><th scope="row">สมุดขายปาล์มแบบอ่านง่าย</th><td class="no">ไม่มี</td><td class="yes">มี</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="after">ครบ 6 เดือนแล้ว แอปจะกลับเป็นรุ่นฟรีตามปกติ</p>
+    </div>
+  </section>
+
+  <section class="tint" id="who">
+    <div class="wrap">
+      <h2>เหมาะกับใคร</h2>
+      <ul class="who">
+        <li>ชาวสวนปาล์มน้ำมันรายย่อย 2 ถึง 20 ไร่</li>
+        <li>ผู้ดูแลสวนปาล์มหลายแปลง</li>
+        <li>คนที่อยากเลิกจดบัญชีสวนลงสมุด</li>
+        <li>คนที่เคยข้อมูลหายเพราะมือถือพัง</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="wrap">
+      <h2>คำถามที่พบบ่อย</h2>
+      <div class="faq">
+        <details open>
+          <summary>Palm Farm Flow คืออะไร</summary>
+          <p>Palm Farm Flow คือแอปบันทึกสวนปาล์มน้ำมันบนมือถือ Android สำหรับชาวสวนปาล์มไทย ใช้จดข้อมูลแปลง งานดูแลสวน การใส่ปุ๋ย รายรับรายจ่าย และยอดขายปาล์ม</p>
+        </details>
+        <details>
+          <summary>ใช้ฟรีไหม</summary>
+          <p>ดาวน์โหลดและใช้งานได้ฟรี รุ่นฟรีรองรับ 2 แปลง และไม่มีโฆษณา ส่วนรุ่น Pro ทดลองใช้ฟรีได้ 6 เดือนโดยไม่ต้องจ่ายเงินล่วงหน้า</p>
+        </details>
+        <details>
+          <summary>ในสวนไม่มีสัญญาณเน็ต ใช้ได้ไหม</summary>
+          <p>ใช้ได้ แอปออกแบบให้ทำงานได้โดยไม่ต้องต่ออินเทอร์เน็ต</p>
+        </details>
+        <details>
+          <summary>รุ่นฟรีกับรุ่น Pro ต่างกันอย่างไร</summary>
+          <p>รุ่นฟรีบันทึกได้ 2 แปลง พร้อมงานสวน รายรับรายจ่าย และการขายปาล์ม รุ่น Pro เพิ่มแปลงได้ไม่จำกัด มีกราฟเปรียบเทียบรายรับรายจ่ายแยกแปลงและเทียบปีต่อปี ส่งออกรายงานเป็น Excel เลือกธีมสีและขนาดตัวอักษร และสมุดขายปาล์มแบบอ่านง่าย</p>
+        </details>
+        <details>
+          <summary>ทดลอง Pro ครบ 6 เดือนแล้วจะเป็นอย่างไร</summary>
+          <p>แอปจะกลับเป็นรุ่นฟรีตามปกติ ไม่มีการเก็บเงินล่วงหน้า</p>
+        </details>
+        <details>
+          <summary>เปลี่ยนมือถือแล้วข้อมูลจะหายไหม</summary>
+          <p>แอปมีเมนูสำรองข้อมูลเป็นไฟล์ และกู้คืนกลับมาได้เอง ควรสำรองข้อมูลไว้เป็นประจำ</p>
+        </details>
+        <details>
+          <summary>ใช้กับ iPhone ได้ไหม</summary>
+          <p>ขณะนี้เปิดให้ดาวน์โหลดบน Google Play สำหรับมือถือ Android</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="wrap">
+      <div>
+        <h2>ติดต่อและแจ้งปัญหา</h2>
+        <p>อีเมล <a href="mailto:palmfarmflow@gmail.com">palmfarmflow@gmail.com</a><br>LINE <a href="https://line.me/R/ti/p/@946oeaag">@946oeaag</a></p>
+        <p>เราพัฒนาแอปนี้เพื่อเกษตรกรสวนปาล์มไทย มีข้อเสนอแนะบอกเราได้เลย</p>
+      </div>
+      <a class="cta" href="https://play.google.com/store/apps/details?id=com.palmfarmflow.app&hl=th">ดาวน์โหลดฟรีบน Google Play</a>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2 lang="en">Palm Farm Flow in English</h2>
+      <p class="en" lang="en">Palm Farm Flow is a free Android app for oil palm smallholders in Thailand. It keeps plot records, care and fertilizer tasks, income, expenses and palm fruit sales in one place, and it works offline. The free version covers 2 plots. Pro adds unlimited plots, year-over-year charts and Excel export, with a 6-month free trial. <a href="https://play.google.com/store/apps/details?id=com.palmfarmflow.app&hl=en">Get it on Google Play</a>.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Palm Farm Flow</span>
+    <span><a href="https://alusi-ae.github.io/palm-farm-flow-privacy/">นโยบายความเป็นส่วนตัว</a></span>
+  </div>
+</footer>
+
+<script>
+  (function () {
+    var kg = document.getElementById('kg');
+    var price = document.getElementById('price');
+    var total = document.getElementById('total');
+    function calc() {
+      var v = (parseFloat(kg.value) || 0) * (parseFloat(price.value) || 0);
+      total.textContent = v.toLocaleString('th-TH', { maximumFractionDigits: 2 });
+    }
+    kg.addEventListener('input', calc);
+    price.addEventListener('input', calc);
+    calc();
+  })();
+</script>
+</body>
+</html>

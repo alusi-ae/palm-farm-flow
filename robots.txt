@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://alusi-ae.github.io/palm-farm-flow/sitemap.xml
