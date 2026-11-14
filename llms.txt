@@ -23,5 +23,15 @@
 
 - [เว็บไซต์](https://alusi-ae.github.io/palm-farm-flow/)
 - [ดาวน์โหลดบน Google Play](https://play.google.com/store/apps/details?id=com.palmfarmflow.app)
+- [บล็อกคู่มือสวนปาล์ม (บทความความรู้สวนปาล์มน้ำมันภาษาไทย)](https://palmfarmflow.blogspot.com/)
+- [เพจ Facebook: Palm Farm Flow บันทึกสวนปาล์ม](https://www.facebook.com/profile.php?id=61596203353416)
 - [นโยบายความเป็นส่วนตัว](https://alusi-ae.github.io/palm-farm-flow-privacy/)
 - ติดต่อ: palmfarmflow@gmail.com, LINE @946oeaag
+
+## หัวข้อในบล็อก
+
+- การจดบัญชีและต้นทุนสวนปาล์ม (รายรับรายจ่าย ต้นทุนต่อไร่ ต้นทุนต่อกิโลกรัม)
+- การตัดและขายปาล์ม (ทะลายสุก การขายที่ลานเท)
+- การใส่ปุ๋ยและดูแลสวน (ช่วงใส่ปุ๋ย อาการขาดธาตุ การดูแลหน้าแล้ง)
+- ปัจจัยที่มีผลต่อราคาปาล์ม
+- คู่มือการใช้แอป Palm Farm Flow
